@@ -47,7 +47,7 @@ public class JpaMain {
 
          */
 
-            Member member1 = new Member(150L, "A");
+            /*Member member1 = new Member(150L, "A");
             Member member2 = new Member(160L, "B");
 
             em.persist(member1);
@@ -55,6 +55,14 @@ public class JpaMain {
 
             System.out.println("============");
 
+            tx.commit();*/
+
+            /*Member member = new Member(200L, "member200");
+            em.persist(member);
+
+            em.flush();*/
+
+//            System.out.println("===============");
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
